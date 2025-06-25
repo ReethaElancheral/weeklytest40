@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f2f4f8;
+  color: #333;
+}
+
+header {
+  background-color: #1e1f26;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.sidebar {
+  background-color: #ffffff;
+  border-right: 1px solid #ddd;
+  padding: 1rem;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  overflow-y: auto;
+}
+
+.post-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  transition: transform 0.2s ease;
+}
+
+.post-card:hover {
+  transform: translateY(-3px);
+}
+
+.post-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.post-header img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.post-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.like-button {
+  color: #e0245e;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.comment-box {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+.comment-box input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.comment-box button {
+  margin-top: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  background-color: #1e1f26;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.profile-summary {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.profile-summary img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.profile-summary h3 {
+  margin: 0.5rem 0 0.2rem;
+}
+
+.profile-summary p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
