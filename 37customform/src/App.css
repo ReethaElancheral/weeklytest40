@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background: #f8f9fa;
+  color: #333;
+}
+.app {
+  padding: 2rem;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+}
+.field-form, .form-preview {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+.field-form h2, .form-preview h2 {
+  margin-top: 0;
+}
+.field-form input,
+.field-form select {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+.field-form button {
+  width: 100%;
+  padding: 0.6rem;
+  background: #007bff;
+  border: none;
+  color: white;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.field-form button:hover {
+  background: #0056b3;
+}
+.preview-field {
+  margin-bottom: 1rem;
+  position: relative;
+}
+.preview-field input,
+.preview-field select {
+  width: 100%;
+  padding: 0.4rem;
+  margin-top: 0.25rem;
+  border-radius: 6px;
+  border: 1px solid #aaa;
+}
+.remove-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: transparent;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #dc3545;
+}
+.remove-btn:hover {
+  color: #a71d2a;
+}
+form button[type="submit"] {
+  margin-top: 1rem;
+  padding: 0.6rem 1rem;
+  background: #28a745;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+form button[type="submit"]:hover {
+  background: #218838;
+}
